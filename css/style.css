@@ -1,14 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 .btn-outline-primary {
-  color: fuchsia;
-  border-color: fuchsia;
+  color: tomato;
+  border-color: tomato;
 }
 
 .link-hover:hover {
-  color: fuchsia;
+  color: tomato;
 }
 .btn-outline-primary:hover {
-  background-color: fuchsia;
-  border-color: fuchsia;
+  background-color: tomato;
+  border-color: tomato;
 }
 .serch-button {
   visibility: hidden;
@@ -28,7 +34,20 @@ a {
 }
 
 .hover-icon a:hover {
-  color: fuchsia;
+  color: tomato;
 
   transform: scale(1.1);
+}
+.bg-tomato {
+  background-color: tomato;
+
+  border: 0;
+  border-radius: 10px;
+  list-style: none;
+}
+.bg-tomato a {
+  color: whitesmoke;
+}
+.bg-tomato:hover {
+  opacity: 0.8;
 }
