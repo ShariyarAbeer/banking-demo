@@ -1,0 +1,21 @@
+.btn-outline-primary {
+  color: fuchsia;
+  border-color: fuchsia;
+}
+
+.link-hover:hover {
+  color: fuchsia;
+}
+.btn-outline-primary:hover {
+  background-color: fuchsia;
+  border-color: fuchsia;
+}
+.serch-button {
+  visibility: hidden;
+  width: 10px;
+  transition: width 2s;
+}
+.serch-button-icon:hover .serch-button {
+  visibility: visible;
+  width: 150px;
+}
