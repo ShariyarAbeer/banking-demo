@@ -54,3 +54,11 @@ a {
 .read-more:hover {
   color: tomato;
 }
+.cover-bg-color {
+  background-color: rgb(253, 232, 235);
+}
+
+.send-bg:hover {
+  background-color: tomato;
+  color: white;
+}
