@@ -19,3 +19,16 @@
   visibility: visible;
   width: 150px;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
+.hover-icon a {
+  transition: 0.5s ease;
+}
+
+.hover-icon a:hover {
+  color: fuchsia;
+
+  transform: scale(1.1);
+}
