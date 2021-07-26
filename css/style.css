@@ -62,3 +62,6 @@ a {
   background-color: tomato;
   color: white;
 }
+.developer a:hover {
+  color: tomato;
+}
